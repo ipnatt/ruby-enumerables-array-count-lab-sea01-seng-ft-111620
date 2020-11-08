@@ -1,5 +1,5 @@
 def count_strings(array)
-  array.count.is_a? String
+  array.count String
 end
 
 def count_empty_strings(array)
