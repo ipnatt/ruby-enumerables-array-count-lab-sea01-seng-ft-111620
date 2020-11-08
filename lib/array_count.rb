@@ -1,6 +1,6 @@
 def count_strings(array)
   array = []
-  array.count
+  array.count " "
 end
 
 def count_empty_strings(array)
