@@ -1,6 +1,6 @@
 def count_strings(array)
-  array.count do |String|
-    String.length > 0
+  array.count do |element|
+    element.even?
 end
 
 def count_empty_strings(array)
