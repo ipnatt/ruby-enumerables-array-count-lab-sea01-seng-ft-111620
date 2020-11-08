@@ -1,5 +1,5 @@
 def count_strings(array)
-  array.scan(String)
+  array.scan(String).length
 end
 
 def count_empty_strings(array)
